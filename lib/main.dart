@@ -21,7 +21,7 @@ class Factify extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black,
       ),
-      home: const SignupPage(),
+      home: SignupPage(),
 
     );
   }
